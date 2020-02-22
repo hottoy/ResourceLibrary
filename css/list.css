@@ -1,0 +1,59 @@
+/* CSS Document */
+
+
+@import "head_foot.css";
+
+#content{ background:#efefef; overflow:hidden; padding:25px 0; }
+.box_list{ overflow:hidden;}
+.spx_left{ width:200px; }
+.spx_left .pp{ border:1px solid #cdcdcd; background:#fff;}
+.spx_left .bor0{ border-top:none;}
+.spx_left .bor1{ border-bottom:none;}
+.spx_left .pp h3{ width:189px; margin-left:10px;font-weight:100; height:32px; border-bottom:1px dotted #cdcdcd; line-height:32px;}
+.spx_left .pp h3 span{ font-size:10px; padding-left:5px; color:#a8a8a8; font-family:"microsoft yahei";}
+.spx_left .pp li{ margin:0px 0 0px 10px; padding:10px 0; width:190px; text-align:right; overflow:hidden; }
+.spx_left .pp li a { margin:5px; display:block; float:left; display:inline; color:#575757;}
+.spx_left .pp li a:hover{ color:#da251d;}
+.tj_sj{ margin-top:15px; border:1px solid #cdcdcd; border-top:none; background:#fff;}
+.tj_sj h3{ background:#d81710; padding-left:10px; color:#fff; font-size:16px; font-family:"microsoft yahei"; height:30px; line-height:30px; font-weight:100;}
+.tj_sj h3 span{ padding-left:5px; font-size:10px;}
+.tj_sj li { margin:10px 0; text-align:center;}
+.tj_sj li img{ width:170px; height:132px; font-family:"microsoft yahei";}
+.tj_sj li .bt{ padding:0 10px;height:30px; text-align:left; margin:5px 0; overflow:hidden;}
+.tj_sj li .bt a{ color:#555;}
+.tj_sj li .bt a:hover{text-decoration:underline;}
+.tj_sj li .jg{ font-family:"microsoft yahei"; font-size:18px; font-weight:bold; color:#da251d; }
+.tj_sj li .jg del{ font-size:12px; font-weight:100; color:#666;color:#909090;}
+
+
+.spx_right{ width:970px; _width:968px; padding-left:20px;  background:#fff;}
+.spx_right .pxfs{ border-bottom:1px solid #cdcdcd; width:950px; height:37px; line-height:37px;}
+.spx_right .pxfs h3{ float:left; font-size:16px; font-weight:400;font-family:"microsoft yahei";}
+.spx_right .pxfs p{ float:left; width:67px; text-align:center; font-size:14px; border-right:1px solid #ddd; cursor:pointer; line-height:16px; height:16px;  margin-top:12px;}
+
+.spx_right .pxfs p.hover{ color:#d1160f; text-decoration:underline;}
+.sp_list li{ width:220px; height:280px; border:1px solid #cdcdcd; text-align:center; overflow:hidden; float:left; margin:20px 20px 0 0; display:inline;}
+.sp_list li img{ margin-top:10px;}
+.sp_list li .bt{ text-align:left;  width:200px; height:20px; overflow:hidden; font-size:14px; font-weight:400; font-family:"microsoft yahei"; margin:5px 0 5px 10px; *margin-left:0px;}
+.sp_list li .jg{text-align:left; margin:0 0 5px 10px; *margin:5px 0 7px 10px; color:#666; height:25px; }
+.sp_list li .jg span{ color:#d1160f; font-size:14px; font-weight:bold;}
+.sp_list li .jg i{ margin-left:25px;}
+.sp_list li .sj{ width:100px; float:left;  background:url(../images/xsj.gif) no-repeat; color:#666; margin-left:10px; display:inline;}
+.sp_list li .xq{ height:20px; width:77px; float:right; margin-right:5px; display:inline;}
+.sp_list li .xq a{ display:block; background:url(../images/ckal1.gif) no-repeat 0 1px; color:#666; width:70px; text-align:left; padding-left:20px;  font-size:12px;}
+.sp_list li .xq a:hover{ background-image:url(../images/ckal2.gif); color:#d1160f;}
+.sp_list li:hover{ border:1px solid #d1160f;}
+
+.page{ height:40px; margin:20px auto; width:480px; }
+.page li{ float:left;}
+.page li a{ display:block; padding:7px 10px; margin:0 2px;font-family:"microsoft yahei"; font-size:14px; color:#575757; font-weight:500;}
+.page li a:hover{ color:#fd0c02;}
+.page li .pageTI{ color:#aaa;}
+.page li .hover{ color:#fd0c02;}
+
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+/* CSS Document */
+
+
+@import "head_foot.css";
+
+
+.nav .qbfn ul{ filter:Alpha(opacity=100); background:#fff;  -moz-opacity:1;   -khtml-opacity: 1;  opacity:1;-webkit-box-shadow: 0 0px 7px rgba(0,0,0,0.3);
+   -moz-box-shadow: 0 0px 7px rgba(0,0,0,0.3);
+	    box-shadow: 0 0px 7px rgba(0,0,0,0.3);}
+#content{ background:#efefef; overflow:hidden; padding:15px 0 30px;}
+.byyd {font-family:"microsoft yahei"; font-weight:400; font-size:14px; color:#575757; padding-left:5px; font-weight:bold; margin:10px auto 30px;}
+.byyd a{color:#575757; margin-right:5px;}
+.byyd a:hover{ text-decoration:underline;}
+.byyd .right{ float:right;}
+.byyd .lcys{ margin-top:20px; }
+
+.sptu1{ width:1188px; border:1px solid #cdcdcd; height:340px; background:#fff; margin-top:10px;}
+.sp_left{ width:510px;  height:340px;border-right:1px solid #cdcdcd; float:left; background:url(../images/xq_xian.jpg) no-repeat 411px 0; overflow:hidden;}
+.spys{ border:1px solid #cdcdcd; background:#fff;}
+.spys .sptop{ height:44px; border-bottom:1px solid #cdcdcd; line-height:44px; background:#f6f6f6;}
+.spys .sptop li{ float:left; text-align:center;font-family:"microsoft yahei"; font-size:14px;}
+.sptop .sp1 span{ margin-left:5px;}
+.spys .sp1{ width:110px;}.spys .sp2{ width:385px;}.spys .sp3{ width:200px;}.spys .sp4{ width:145px;}.spys .sp5{ width:175px;}.spys .sp6{ width:174px;}
+.spxx{ height:108px; border-bottom:1px solid #f2f2f2; padding-top:20px;}
+.spxx li{ float:left;text-align:center;}
+.spxx .sp1{text-align:left;}
+.spxx .sp1 input{ margin:0 0 0 30px; }
+.spxx .sp2 img{ float:left; border:1px solid #cdcdcd;}
+.spxx .sp2 p{ float:left; width:290px; padding-left:10px; line-height:20px; text-align:left;}
+.spxx .sp3 { }
+.spxx .sp4 .p1{ width:15px; height:17px; border:1px solid #cdcdcd; line-height:17px; text-align:center; margin:10px 7px 0 35px;}
+.spxx .sp4 .p2{ width:32px; height:22px; border:1px solid #cdcdcd;line-height:17px; text-align:center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

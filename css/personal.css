@@ -1,0 +1,106 @@
+/* CSS Document */
+
+
+@import "head_foot.css";
+@import "Public.css";
+
+
+
+/* 订单 */
+.dd_xq{ width:930px; border:1px solid #eee; margin:20px auto; border-bottom:none;}
+.mswz{ background:#eee; height:40px; line-height:40px;}
+.mswz p{ float:left;text-align:center;}
+.p1{ width:243px;}.p2{ width:150px;}.p3{ width:135px;}.p4{ width:148px;}.p5{ width:93px;}.p6{ width:160px;}
+.spnr{ float:left;}
+.spnr  div img{ border:1px solid #cdcdcd;  width:50px; height:50px; float:left; margin-right:5px; margin-bottom:5px; display:inline;}
+.spnr  div{ padding-bottom:4px;margin-left:10px;}
+.spnr  p{ margin:5px 0 5px 10px; font-size:14px; font-family:"microsoft yahei";}
+.spnr ul li{ float:left; font-size:14px;font-family:"microsoft yahei";}
+.spnr ul{ border-bottom:1px solid #eee; background:url(../images/ddsp_bj.jpg) repeat-y; min-height:85px;_height:85px; }
+.spnr ul .jzys{ text-align:center; line-height:90px;}
+.spnr .p1 span{color:#428dd0;}
+.spnr .p6{ color:#428dd0;}
+.spnr .p6 a{ color:#428dd0;}.spnr .p6 a:hover{ text-decoration:underline;}
+.spnr .box{ height:800px;}
+
+/* 收藏 */
+.sczh{ margin:10px 0 0 10px; height:820px; overflow:hidden; position:relative;}
+.sczh li{ width:215px; height:251px; border:1px solid #cdcdcd; text-align:center; position:relative; float:left; margin:10px; display:inline;}
+.sczh li .sctu img{ margin-top:10px; height:195px; height:180px;}
+.sczh li p{ text-align:left; margin-left:10px;}
+.sczh li p.bt2{ font-family:"microsoft yahei"; font-size:14px; margin:5px 0 5px 5px;}
+.sczh li p.xsz{ color:#0578c9; font-size:12px; font-family:"microsoft yahei";}
+.sczh li p.yxz{ color:#d1160f;}
+.sczh li .close{ position:absolute; top:5px; right:5px; cursor:pointer; display:none;}
+.sczh .menuOne.hover .close{ display:block;}
+.sczh .menuOne.hover{ border:1px solid #d1160f;}
+.scStyle .page{ margin-top:38px;}
+
+
+/*  优惠券 */
+.sczh .yhys{ height:260px;  margin:6px 10px; _margin:4px 10px;}
+.sczh .yhys p.bt2{ margin:3px 0 3px 5px;}
+.sczh .yhys p.xsz{ color:#282828; font-size:14px; color:#555;} 
+.sczh .yhys p.xsz .ys{ color:#0578c9;}
+
+/*  个人资料 */
+.addHeight{ height:auto;}
+.peStyle{ height:1010px;}
+.prGr{ margin:40px 0 60px 50px;}
+.prGr div{ margin-bottom:20px;}
+.prGr div label{ font-family:"microsoft yahei"; font-size:16px;  }
+.prGr div .ysin{ width:240px; height:30px; border:1px solid #cdcdcd; vertical-align:middle; line-height:30px; padding-left:5px; color:#555;}
+.xqbq{ margin:0 0 0 50px;}
+.xqbq h3{font-family:"microsoft yahei"; font-size:16px; margin-bottom:15px; color:#555;}
+.xqbq .bq div{ float:left; padding:6px 12px; background:#eeeeee; margin-right:20px; display:inline;font-family:"microsoft yahei"; font-size:14px; color:#555; position:relative;}
+.xqbq .bq div span{ background:url(../images/close1.png) no-repeat; display:block; width:20px; height:20px; position:absolute; top:-6px; right:-6px; display:none; cursor:pointer;}
+.xqbq .bq div.hover span{ display:block;}
+.xqbq .bq .xj{ display:block; padding:6px 15px; border:1px dashed #888787; color:#9e9e9e; float:left;font-family:"microsoft yahei"; font-size:14px;background:#eeeeee; }
+
+/*  彩豆 */
+
+.cd_ys{ height:50px; border-bottom:1px solid #cdcdcd;}
+.cd_ys p{ width:105px; border-right:1px solid #cdcdcd; line-height:50px; text-align:center; float:left; cursor:pointer;font-family:"microsoft yahei"; font-size:16px; font-weight:bold;}
+.cd_ys p.hover{ border-top:2px solid #f20; background:#efefef; color:#f20; height:48px;}
+.cd_fs .czzh{ width:930px; margin:40px auto; height:336px; border-bottom:1px dashed #cdcdcd;}
+.cd_fs div{ margin:0 0 45px 30px;}
+.cd_fs div label{ font-family:"microsoft yahei"; font-size:16px;  }
+.cd_fs div .ysin{ width:240px; height:30px; border:1px solid #cdcdcd; vertical-align:middle; line-height:30px; padding-left:5px;}
+.cd_fs .cxys{font-family:"microsoft yahei"; font-size:16px;}
+.cd_fs .cxys span{ padding:0 25px 0 5px;}
+.cd_fs .cxys .qtje{width:100px; height:30px; border:1px solid #cdcdcd; vertical-align:middle; line-height:30px; padding-left:5px; margin-left:10px;}
+.cd_fs .zfys span { padding:0 25px 0 5px;}
+.cd_fs .zfys span img{ vertical-align:middle;}
+.cd_fs .zfys p{ color:#f20; margin-left:90px; margin-top:20px;font-family:"microsoft yahei"; font-size:14px; letter-spacing:1px;}
+.cd_fs .submit{ margin-left:90px;}
+.cd_fs .gmxz{ width:880px; margin:25px 0 0 50px;}
+.gmxz h3{font-family:"microsoft yahei"; font-size:16px; font-weight:bold; color:#f20; margin-bottom:10px;}
+.gmxz p{ font-family:"microsoft yahei"; font-size:16px; line-height:26px;}
+#zf_2 .czzh{ height:225px;}
+#zf_2 div .wid0{ width:140px;}
+#zf_2 div span{ font-family:"microsoft yahei"; font-size:16px; color:#f20; padding-left:10px;}
+.syjv{ width:928px; margin:0 auto; border-left:1px solid #eee; margin-top:22px;}
+.syjv .jv1{ width:142px; float:left;}
+.syjv .jv1 h4{ font-family:"microsoft yahei"; font-size:14px;color:#555; font-weight:400; background:#eee; height:40px; line-height:40px; padding-left:20px;}
+.syjv .jv1 p{ border-right:1px solid #eee; padding-left:20px; color:#555;font-family:"microsoft yahei"; height:40px; line-height:40px; border-bottom:1px solid #eee; font-size:14px;}
+.syjv .jv2{ width:189px;}.syjv .jv3{ width:156px;}.syjv .jv4{ width:438px;}
+.syjv .jv4 span{ padding-left:5px;}
+
+/*  收货地址 */
+.shdz{ width:920px; margin:20px auto; border-bottom:1px dashed #cdcdcd;}
+.shdz div{ margin-left:20px;}
+.shdz .ts{font-family:"microsoft yahei"; font-size:16px; margin-bottom:20px;}
+.shdz .ts span{ color:#f20;}
+.shdz div span{ color:#f20; padding:0 5px;}
+.shdz div .shr span{ margin-left:15px;}
+.shdz div .lbys{ margin-right:20px;}
+.shdz div .lb1{ width:60px;}
+.shdz div .lb2{ width:100px;}
+.shdz div .lb3{ width:100px;}
+.shdz div textarea{ width:540px; height:95px; vertical-align:top; color:#555;border:1px solid #cdcdcd; font-size:14px; padding:5px 0 0 5px;}
+.shdz .mrdz input{ margin-left:90px;}
+.shdz .mrdz span{font-family:"microsoft yahei"; font-size:16px; color:#333;}
+.shdz .submit{ margin-left:90px;}
+.shys .p1{ width:112px;}.shys .p2{ width:179px;}.shys .p3{ width:234px;}.shys .p4{ width:87px;}.shys .p5{ width:129px;}.shys .p6{ width:182px;}
+.shys .spnr ul{ background:url(../images/shdzbj.gif) repeat-y;}
+.shys .spnr .xxdz{ line-height:24px; width:214px; padding:0 10px; margin-top:20px;}

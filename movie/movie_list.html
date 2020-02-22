@@ -1,0 +1,467 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>电影首页</title>
+<link rel="stylesheet" type="text/css" href="../css/movie_list.css" />
+<script src="../js/jquery-1.8.0.min.js" type="text/javascript"></script>
+<script src="../js/menu.js" type="text/javascript"></script>
+<script src="../js/jquery.jslides.js" type="text/javascript"></script>
+<script src="../js/movieLh.js" type="text/javascript"></script>
+<!--[if IE 6]>
+    <script type="text/javascript" src="../js/DD_belatedPNG.js"></script>
+    <script language="javascript" type="text/javascript">
+    DD_belatedPNG.fix('*');
+    </script>
+<![endif]-->
+</head>
+
+<body>
+
+<!-- header -->
+<div id="header">
+	<ul class="top_s">
+    	<li class="top_z">
+        	<div class="top_left">
+            	<p>你好，欢迎来到凉山无线商城</p>
+                <p class="dl_left"><a href="#" style="color:#f00;">[登录] </a> </p>
+                <p><a href="#" >[免费注册]</a></p>
+            </div>
+            <div class="top_right">
+            	<p class="user_gr"><a href="#">购物车<span>0</span>件</a> |</p>
+                <p class="user_gwc"><a href="#">我的无线商城</a> |</p>
+                <p class="user_sc"><a href="#">卖家中心</a></p>
+            </div>
+        </li>
+    </ul>
+    
+    <ul class="logo_search">
+    	<li class="logo">
+        	<a href="#"><img src="../images/logo.jpg" /></a>
+        </li>
+        <li class="search">
+            <form id="JS_search_form" action="" method="get" onsubmit="">
+                <input id="JS_MLL_search_header_input" name="keywords" class="keyWord" value="请输入关键字..." onfocus="if(this.value=='请输入关键字...'){this.value='';}"  onblur="if(this.value==''){this.value='请输入关键字...';}" autocomplete="off" type="text">
+                <input class="submit" value="" src="../images/submit.jpg" type="image">
+            </form>
+        <div class="search_zj">
+            <div>
+                <a href="#" target="_blank" style="color:#da251d;">香檀一号</a> |
+                <a href="#" target="_blank">首开国风</a> |
+                <a href="#" target="_blank">绿地·塞纳公馆</a>
+            </div>
+        </div>
+      </li>
+      
+      <li class="user_gw">
+        <a href="#" class="user">个人中心</a>
+        <div class="menuOne"><a href="#" class="gwts">去购物车结算</a>
+            <div class="gwc_hover">
+                <img src="../images/mygw.jpg" />
+            </div>
+        </div>
+        <p>0</p>
+        
+      </li>
+    </ul>
+    <div class="clear"></div>
+    
+    <ul class="byyd marbox">
+    	<li>
+            <a href="#" target="_blank">凉山无线商城</a> &gt; 
+            <a href="#" target="_blank">电影专区</a> &gt;  
+            <span style="color:#d81710;">星际穿越</span>
+        </li>
+    </ul>
+    <ul class="banner_tq_cz">
+    	<li class="dyhb">
+        	<div class="hb"><img src="../images/dy_3.jpg" /></div>
+            <ul class="dyjs">
+            	<li class="top1">
+                	<div class="left lbys">
+                    	<div class="bt1">
+                        	<p class="left bt2">星际穿越</p>
+                            <p class="left mov">热映中</p>
+                        </div>
+                        <div class="zxgp">
+                        	<a href="#" target="_blank">在线团购</a>
+                            <a href="#" target="_blank" class="xz">在线选座</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                    	<p>8.7<span>分</span></p>
+                    </div>
+                </li>
+                <li class="ypxx">
+                	<p>导演：克里斯托弗·诺兰</p>
+                    <p>主演：马修·麦康纳 安妮·海瑟薇 杰西卡·查斯坦 比尔·欧文</p>
+                    <p>地区：美国 / 英国</p>
+                    <p>类型：预告片/科幻/悬疑/冒险/院线</p>
+                </li>
+                <li class="spgy">
+                	<a href="#"><img src="../images/dy1.png" title=""/></a>
+                    <a href="#"><img src="../images/dy2.png" title=""/></a>
+                    <a href="#"><img src="../images/dy3.png" title=""/></a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <div class="clear"></div>
+</div>
+<!-- header end -->
+
+<!-- content -->
+<div id="content">
+	<ul class="dy_zt marbox">
+    	<li class="ypzr">
+        	<h3>影片阵容</h3>
+            <p>导演: 克里斯托弗·诺兰</p>
+            <p>主演: 马修·麦康纳、  安妮·海瑟薇、  杰西卡·查斯坦、  比尔·欧文</p>
+        </li>
+       <li class="jqjs">
+        	<h3>剧情介绍</h3>
+            <p id="zsbb" style="height:42px;">世界在历经极端气候与粮食危机，地球濒临末日之际，一位电机工程师（马修·麦康纳 Matthew McConaughey 饰）与一群专业研究者
+            还有顶尖太空人（安妮·海瑟薇 Anne Hathaway 饰），扛起人类史上最重要的任务，越过已知的银河，在星际间寻找未来出路。同时必须先割舍无法与家人见面的亲情牵绊，在爱与勇气、生存与挑战中，跨越星际拯救人类世界在历经极端气候与粮食危机，地球濒临末日之际，一位电机工程师（马修·麦康纳 Matthew McConaughey 饰）与一群专业研究者
+            还有顶尖太空人（安妮·海瑟薇 Anne Hathaway 饰），扛起人类史上最重要的任务，越过已知的银河，在星际间寻找未来出路。同时必须先割舍无法与家人见面的亲情牵绊，在爱与勇气、生存与挑战中，跨越星际拯救人类世界在历经极端气候与粮食危机，地球濒临末日之际，一位电机工程师（马修·麦康纳 Matthew McConaughey 饰）与一群专业研究者
+            还有顶尖太空人（安妮·海瑟薇 Anne Hathaway 饰），扛起人类史上最重要的任务，越过已知的银河，在星际间寻找未来出路。同时必须先割舍无法与家人见面的亲情牵绊，在爱与勇气、生存与挑战中，跨越星际拯救人类世界在历经极端气候与粮食危机，地球濒临末日之际，一位电机工程师（马修·麦康纳 Matthew McConaughey 饰）与一群专业研究者
+            还有顶尖太空人（安妮·海瑟薇 Anne Hathaway 饰），扛起人类史上最重要的任务，越过已知的银河，在星际间寻找未来出路。同时必须先割舍无法与家人见面的亲情牵绊，在爱与勇气、生存与挑战中，跨越星际拯救人类……
+            </p>
+            <ul class="nscp">        
+                <li class="lunhuan">
+                        <a onmouseup=ISL_StopUp_1() class=LeftBotton onmousedown=ISL_GoUp_1() onmouseout=ISL_StopUp_1() href="javascript:void(0);" hidefocus="true" target="_self"></a>
+                        <div id=ISL_Cont_1 class=pcont>
+                            <div class=ScrCont>
+                                <div id=List1_1>
+                                    <div class="cp_zs1">
+                                        <p><a href="#"><img src="../images/dy4.gif" /></a></p>
+                                    </div>
+                                    <div class="cp_zs1">
+                                        <p><a href="#"><img src="../images/dy5.gif" /></a></p>
+                                    </div>
+                                    <div class="cp_zs1">
+                                        <p><a href="#"><img src="../images/dy6.gif" /></a></p>
+                                    </div>
+                                    <div class="cp_zs1">
+                                        <p><a href="#"><img src="../images/dy4.gif" /></a></p>
+                                    </div>
+                                </div>
+                                <div id=List2_1>
+                                    <div class="cp_zs1">
+                                        <p><a href="#"><img src="../images/dy4.gif" /></a></p>
+                                    </div>
+                                    <div class="cp_zs1">
+                                        <p><a href="#"><img src="../images/dy5.gif" /></a></p>
+                                    </div>
+                                    <div class="cp_zs1">
+                                        <p><a href="#"><img src="../images/dy6.gif" /></a></p>
+                                    </div>
+                                    <div class="cp_zs1">
+                                        <p><a href="#"><img src="../images/dy4.gif" /></a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a onmouseup="ISL_StopDown_1()" class="RightBotton" onmousedown="ISL_GoDown_1()"  onmouseout="ISL_StopDown_1()" href="javascript:void(0);" target="_self"></a>
+                </li>
+            </ul>
+             <span id="key" onClick="shoppingcat();">查看更多</span>
+             <div class="clear"></div>
+        </li>
+       <li class="ppb">
+       		<h3>今日排片表</h3>
+            <div class="tpy">
+            	<h4>太平洋影城</h4>
+                <div class="sjb">
+                	<div class="sj_left left">
+                    	<p>数字</p>
+                        <p>2D</p>
+                    </div>
+                    <div class="sj_right left">
+                    	<div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="sjb">
+                	<div class="sj_left left">
+                    	<p>IMAX</p>
+                        <p>2D</p>
+                    </div>
+                    <div class="sj_right left">
+                    	<div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="tpy">
+            	<h4>星美国际影城</h4>
+                <div class="sjb">
+                	<div class="sj_left left">
+                    	<p>数字</p>
+                        <p>2D</p>
+                    </div>
+                    <div class="sj_right left">
+                    	<div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="sjb">
+                	<div class="sj_left left">
+                    	<p>IMAX</p>
+                        <p>2D</p>
+                    </div>
+                    <div class="sj_right left">
+                    	<div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                        <div>
+                        	<p>10:35</p>
+                            <p>英语</p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+       </li>
+    </ul>
+    
+</div>
+
+<!-- content end -->
+
+<!-- footer -->
+<div id="footer">
+	<ul class="dbxx1 marbox">
+    	<li class="db_left left">
+        	<p class="bt2">HELP CENTER 帮助中心</p>
+            <ul>
+            	<li>
+                	<img src="../images/db1.png" />
+                    <p><a href="#">如何注册</a></p>
+                    <p><a href="#">怎样购物</a></p>
+                    <p><a href="#">找回密码</a></p>
+                </li>
+                <li>
+                	<img src="../images/db2.png" />
+                    <p><a href="#">上门自提</a></p>
+                    <p><a href="#">免费配送</a></p>
+                </li>
+                <li>
+                	<img src="../images/db3.png" />
+                    <p><a href="#">i淘凉山</a></p>
+                    <p><a href="#">商家入驻</a></p>
+                </li>
+                <li>
+                	<img src="../images/db4.png" />
+                    <p><a href="#">服务热线</a></p>
+                    <p><a href="#">给用户的一封信</a></p>
+                </li>
+            </ul>
+        </li>
+        <li class="left dbdh">
+        	<a href="#" title=""><img src="../images/db_dh.jpg" alt="电话：400-101-6328" /></a>
+        </li>
+    </ul>
+</div>
+<!-- footer end -->
+
+
+</body>
+</html>

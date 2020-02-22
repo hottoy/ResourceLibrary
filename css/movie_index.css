@@ -1,0 +1,42 @@
+/* CSS Document */
+
+
+@import "head_foot.css";
+
+#content{ background:#efefef; overflow:hidden; padding:25px 0; }
+.box_list{ overflow:hidden;}
+.spx_left{ width:200px; }
+.spx_left .pp{ border:1px solid #cdcdcd; background:#fff; margin-bottom:25px;}
+.spx_left .bor1{ border-bottom:none;}
+.spx_left .pp h3{ width:189px; margin-left:10px;font-weight:100; height:32px; border-bottom:1px dotted #cdcdcd; line-height:32px;}
+.spx_left .pp h3 span{ font-size:10px; padding-left:5px; color:#a8a8a8; font-family:"microsoft yahei";}
+.spx_left .pp .dyjs{ margin:0px 0 0px 10px; padding:10px 0; width:190px; text-align:right; overflow:hidden; }
+.spx_left .pp .dyjs a { margin:5px; display:block; float:left; display:inline; color:#575757;}
+.spx_left .pp .dyjs a:hover{ color:#da251d;}
+.spx_left .pp .dyjs h4{ color:#f20; font-size:14px;font-family:"microsoft yahei"; text-align:left; font-weight:100; margin-left:5px; }
+.spx_left .pp .dyjs div a{}
+.spx_left .pp .dy1{ margin:0; width:200px;}
+.spx_left .pp .dy1 p{text-align:center; margin:10px 0;}
+.spx_left .pp .dy1 img{ width:180px; height:93px;}
+.spx_left .pp .gd{ float:right; font-size:14px;  padding-right:10px;}
+.spx_left .pp .gd a{color:#f20000;}
+
+
+
+.spx_right{ float:right; width:970px; border:1px solid #cdcdcd;  background:#fff; padding-bottom:20px;}
+.spx_right .dbxx{ height:34px; line-height:34px; font-size:14px;font-family:"microsoft yahei"; font-weight:bold; border-bottom:1px solid #cdcdcd;}
+.spx_right .dbxx p{ float:left; width:105px; border-right:1px solid #cdcdcd; text-align:center;cursor:pointer;}
+.spx_right .dbxx p.hover{ border-top:2px solid #d81710; background:#efefef; height:32px;}
+.spx_right .dd_zs{ margin-left:5px;}
+.spx_right .dd_zs div{ width:290px; height:435px;  float:left; margin:15px; display:inline;}
+.spx_right .dd_zs div img{ width:290px; height:406px;}
+.spx_right .dd_zs div p{font-size:16px;font-family:"microsoft yahei"; font-weight:bold; margin-top:10px; padding:0 5px; }
+.spx_right .dd_zs div p span{ float:right; color:#fb5a02; }
+
+
+.page{ height:40px; margin:30px auto 0; width:480px; }
+.page li{ float:left;}
+.page li a{ display:block; padding:7px 10px; margin:0 2px;font-family:"microsoft yahei"; font-size:14px; color:#575757; font-weight:500;}
+.page li a:hover{ color:#fd0c02;}
+.page li .pageTI{ color:#aaa;}
+.page li .hover{ color:#fd0c02;}
